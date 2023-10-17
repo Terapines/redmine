@@ -1,4 +1,5 @@
-source 'https://rubygems.org'
+# source 'https://rubygems.org'
+source 'https://gems.ruby-china.com/'
 
 ruby '>= 2.5.0', '< 3.2.0'
 gem 'bundler', '>= 1.12.0'
@@ -26,7 +27,7 @@ gem 'rbpdf', '~> 1.21.3'
 gem 'addressable'
 gem 'rubyzip', '~> 2.3.0'
 gem 'net-smtp', '~> 0.3.0'
-gem 'net-imap', '~> 0.2.2'
+gem 'net-imap', '~> 0.3.1'  # Redmine-oauth plugin use this version
 gem 'net-pop', '~> 0.1.1'
 # Rails 6.1.6.1 does not work with Pysch 3.0.2, which is installed by default with Ruby 2.5. See https://github.com/rails/rails/issues/45590
 gem 'psych', '>= 3.1.0' if Gem.ruby_version < Gem::Version.new('2.6.0')
